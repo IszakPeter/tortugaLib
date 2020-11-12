@@ -2,9 +2,8 @@
 Tortuga alias Punga
 
 
-
-használat 
-kell a tortutuga.dll
-meg nugetekből telepiteni kell a monogame frameworkot
-
+# használata: 
+- Form projekt kell
+- kell a tortutuga.dll
+- ezt kell telepiteni Nugetekből:
 ![alt text](https://github.com/IszakPeter/tortugaLib/blob/main/monolib.png)
