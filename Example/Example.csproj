@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MonoGame.Framework.WindowsDX" Version="3.8.0.1641" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="TortugaLibrary">
+      <HintPath>bin\Debug\netcoreapp3.1\TortugaLibrary.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
